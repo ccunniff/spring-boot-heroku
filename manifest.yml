@@ -1,0 +1,7 @@
+---
+applications:
+- name: spring-bootstrap-thymeleaf
+  memory: 512M
+  instances: 2
+  host: spring-bootstrap-thymeleaf-${random-word}
+  path: build/libs/spring-bootstrap-thymeleaf-0.1.0.jar
