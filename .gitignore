@@ -1,6 +1,15 @@
-.gradle
+# Build directories
 build/
 bin/
+
+# Gradle
+.gradle
+
+# Idea
+.idea/
+*.iml
+
+# Eclipse
 .project
 .classpath
 .settings/
