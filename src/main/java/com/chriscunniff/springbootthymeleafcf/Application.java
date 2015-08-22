@@ -1,4 +1,4 @@
-package com.chriscunniff.springbootstrapthymeleaf;
+package com.chriscunniff.springbootthymeleafcf;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

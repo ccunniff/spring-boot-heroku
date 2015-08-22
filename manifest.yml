@@ -1,7 +1,7 @@
 ---
 applications:
-- name: spring-bootstrap-thymeleaf
+- name: spring-boot-thymeleaf-cf
   memory: 512M
   instances: 2
-  host: spring-bootstrap-thymeleaf-${random-word}
-  path: build/libs/spring-bootstrap-thymeleaf-0.1.0.jar
+  host: spring-boot-thymeleaf-cf-${random-word}
+  path: build/libs/spring-boot-thymeleaf-cf-0.1.0.jar
