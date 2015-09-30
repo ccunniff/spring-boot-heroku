@@ -12,11 +12,13 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'spring-boot'
 
-applicationDefaultJvmArgs = ["-Dserver.port=" + System.getenv('PORT')]
-
 jar {
   baseName = 'spring-boot-thymeleaf-cf'
   version =  '0.1.0'
+  manifest {
+    attributes 'Implementation-Title': 'Gradle Quickstart',
+    'Implementation-Version': version
+  }
 }
 
 repositories {

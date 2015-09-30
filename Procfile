@@ -1,1 +1,1 @@
-web: build/install/spring-boot-thymeleaf-cf/bin/spring-boot-thymeleaf-cf
+web: java $JAVA_OPTS -Dserver.port=$PORT -jar build/libs/*.jar 
