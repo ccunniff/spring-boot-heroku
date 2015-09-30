@@ -15,10 +15,6 @@ apply plugin: 'spring-boot'
 jar {
   baseName = 'spring-boot-thymeleaf-cf'
   version =  '0.1.0'
-  manifest {
-    attributes 'Implementation-Title': 'Gradle Quickstart',
-    'Implementation-Version': version
-  }
 }
 
 repositories {
@@ -34,6 +30,7 @@ dependencies {
 }
 
 task stage {
+  dependsOn build
   dependsOn installDist
 }
 
