@@ -1,8 +1,9 @@
-# spring-boot-thymeleaf-cf
+# spring-boot-heroku
 
-This is a template project for getting started with Spring Boot, Thymeleaf, and Twitter Bootstrap on Cloud Foundry.
+This is a template project for getting started with Spring Boot, Thymeleaf, and Twitter Bootstrap on Heroku.
 
-Run with 
+Run locally with
 ```
-./gradlew run
+./gradlew stage
+heroku local web
 ```
