@@ -8,6 +8,8 @@ bin/
 # Idea
 .idea/
 *.iml
+*.ipr
+*.iws
 
 # Eclipse
 .project
