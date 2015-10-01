@@ -1,4 +1,4 @@
-package com.chriscunniff.springbootthymeleafcf;
+package com.chriscunniff.springbootheroku;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
